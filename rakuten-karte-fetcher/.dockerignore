@@ -1,0 +1,46 @@
+# Rakuten Karte Fetcher - Docker Ignore
+
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+
+# Virtual environment (use container's Python)
+.venv
+venv
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Environment files (secrets are passed via env vars)
+.env
+.env.*
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Tests (not needed in production image)
+tests/
+scripts/
+
+# Data (mounted as volumes)
+data/
+
+# Logs
+*.log
+logs/
+
+# Development files
+.coverage
+htmlcov/
+playwright-report/

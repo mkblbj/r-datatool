@@ -1,0 +1,13 @@
+# Rakuten Karte Fetcher - 店铺配置
+# 
+# 每个店铺对应 Bitwarden/Vaultwarden 中的一个 Login Item
+# 程序启动时会从 Bitwarden 获取实际的用户名和密码
+
+shops:
+  # 示例配置 - 请根据实际情况修改
+  - code: main_shop                      # 店铺代号（用于 API 路径和数据目录）
+    bitwarden_item: rakuten-main-shop    # Bitwarden 中的 Item 名称
+
+  # 可以添加更多店铺
+  # - code: outlet_shop
+  #   bitwarden_item: rakuten-outlet-shop

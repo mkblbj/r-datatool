@@ -1,0 +1,3 @@
+# This directory stores parsed JSON files for API consumption
+# File naming convention: {type}.json
+# Example: karte_summary.json, ranking_today.json

@@ -1,0 +1,17 @@
+# Rakuten Karte Fetcher - Dependencies
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Browser Automation
+playwright>=1.40.0
+
+# Configuration
+pyyaml>=6.0
+
+# HTTP Client (for potential API calls)
+requests>=2.31.0
+
+# Scheduling (optional)
+# apscheduler>=3.10.0

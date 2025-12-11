@@ -1,0 +1,6 @@
+# Bitwarden/Vaultwarden 配置
+
+bitwarden:
+  # 在 Bitwarden/Vaultwarden 中搜索 Item 时使用的关键字
+  # 用于额外验证获取的是正确的 Item
+  match_keyword: "rakuten"

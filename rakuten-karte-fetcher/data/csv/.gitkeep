@@ -1,0 +1,3 @@
+# This directory stores raw CSV files downloaded from Rakuten RMS
+# File naming convention: {date}_{type}.csv
+# Example: 2025-12-10_main.csv, 2025-12-10_ranking.csv
